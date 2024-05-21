@@ -3,6 +3,7 @@ require("dotenv").config()
 require("@nomicfoundation/hardhat-ethers");
 require("./tasks/block-number");
 require("hardhat-gas-reporter")
+require("@nomiclabs/hardhat-waffle")
 
 /** @type import('hardhat/config').HardhatUserConfig */
 
